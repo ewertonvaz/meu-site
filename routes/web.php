@@ -26,3 +26,11 @@ Route::get('/about', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
+Route::get('/page01', function () {
+    return view('page01');
+});
+
+Route::get('/page02', function () {
+    return view('page02');
+});
