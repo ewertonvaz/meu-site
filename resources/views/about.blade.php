@@ -1,4 +1,6 @@
-@extends('layouts.principal')
+@extends('layouts.bs-layout')
+
+@section('title', 'About')
 
 @section('content')
   <h2>
