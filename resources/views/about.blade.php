@@ -1,4 +1,4 @@
-@extends('layouts.bs-layout')
+@extends('layouts.principal')
 
 @section('title', 'About')
 

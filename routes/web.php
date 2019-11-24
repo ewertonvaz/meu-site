@@ -28,9 +28,10 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/page01', function () {
-    return view('page01');
+    return view('page01', ["meunome" => "Ewerton"]);
 });
 
 Route::get('/page02', function () {
-    return view('page02');
+    $nomes = array('Maria', 'João', 'Ana', 'Jorge');
+    return view('page02', ['nomes' => $nomes]);
 });
