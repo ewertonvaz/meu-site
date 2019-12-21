@@ -35,3 +35,7 @@ Route::get('/page02', function () {
     $nomes = array('Maria', 'João', 'Ana', 'Jorge');
     return view('page02', ['nomes' => $nomes]);
 });
+
+Route::get('/page03', function () {
+    return view('teste');
+});
